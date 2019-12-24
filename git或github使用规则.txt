@@ -5,6 +5,8 @@ https://www.cnblogs.com/yangshifu/p/9919817.html
 
 然后是建立git仓库，即新建一个文件夹然后执行
 
+第一次
+
 git init
 
 git add README.md
@@ -15,4 +17,10 @@ git remote add origin (复制远端仓库的地址)git@github.com:hengzhangUestc
 
 git push -u origin master
 
-即可
+随后
+
+
+git add -A             #将文件的修改上传到暂存区
+  //  add 后面可以跟文件或者是文件夹
+git commit -m '说明'      #提交到本地仓库
+git push origin master   #推送到GitHub网站上
