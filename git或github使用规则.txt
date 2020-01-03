@@ -18,6 +18,7 @@ git remote add origin (复制远端仓库的地址)git@github.com:hengzhangUestc
 git push  origin master
 
 
+二次及以上
 
 git add -A             #将文件的修改上传到暂存区
   //  add 后面可以跟文件或者是文件夹
