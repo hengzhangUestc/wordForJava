@@ -1,4 +1,4 @@
-首先建立 git 和github的连接
+﻿首先建立 git 和github的连接
 
 https://www.cnblogs.com/yangshifu/p/9919817.html
 （配置过程中，用户名可随便写，邮箱名字为有效的）
@@ -24,3 +24,10 @@ git add -A             #将文件的修改上传到暂存区
   //  add 后面可以跟文件或者是文件夹
 git commit -m '说明'      #提交到本地仓库
 git push origin master   #推送到GitHub网站上
+
+
+针对不同的电脑向同一个远端仓库中提交文件
+
+git pull --rebase origin master 需要执行这个指令
+
+https://blog.csdn.net/xiaoduan_/article/details/80904888
